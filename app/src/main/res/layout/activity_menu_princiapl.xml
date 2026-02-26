@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Princiapl_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido Skater"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="24dp"/>
+
+
+        <ImageView
+            android:id="@+id/map_preview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@mipmap/ic_mapa"
+            android:scaleType="centerCrop"
+            android:background="#E0E0E0"
+            android:contentDescription="Vista del mapa"
+            android:layout_marginBottom="32dp"/>
+
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 Buscar Skateparks Cercanos"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:layout_marginBottom="18dp"/>
+
+        <Button
+            android:id="@+id/btnLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Ver lista de Skateparks"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:layout_marginBottom="18dp"/>
+
+        <Button
+            android:id="@+id/btnPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👤 Mi Perfil"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</ScrollView>
