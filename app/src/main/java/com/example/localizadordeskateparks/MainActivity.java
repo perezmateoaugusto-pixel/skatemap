@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnLogin = findViewById(R.id.btnLogin);
 
         btnLogin.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, Menu_Princiapl_Activity.class);
+            Intent intent = new Intent(MainActivity.this, Menu_Principal_Activity.class);
             startActivity(intent);
         });
 
