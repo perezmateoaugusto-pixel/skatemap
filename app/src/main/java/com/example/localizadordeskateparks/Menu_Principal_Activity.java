@@ -46,7 +46,7 @@ public class Menu_Principal_Activity extends AppCompatActivity {
                     .commit();
         }
 
-        // 📌 EVENTOS DEL MENÚ
+
         nvMenu.setNavigationItemSelectedListener(item -> {
 
             Fragment fragment = null;
